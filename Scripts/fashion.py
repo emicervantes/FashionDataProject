@@ -36,10 +36,10 @@ with col1:
     "6'11"])
     sub_col1, sub_col2 = st.columns(2)
     with sub_col1:
-        cup_size = sub_col1.selectbox("Choose Your Cloth Category:", 
+        cup_size = sub_col1.selectbox("Your Cup Size:", 
         bra_lst)
     with sub_col2:
-        bra_size = sub_col2.selectbox("Choose Your Cloth Category:", 
+        bra_size = sub_col2.selectbox("Your Bra Size:", 
         cup_lst)
 with col2:
     st.image(image)
