@@ -23,5 +23,9 @@ col1, col2 = st.columns(2)
 with col1:
     st.header("spongebob says 'hello!'")
     factor = col1.selectbox("Choose Your Cloth Category:", category)
+    waist = st.slider('Your waist: ', 0, 130, 25)
+    height = st.slider('Your height: ', 0, 130, 25)
+    cup_size = st.slider('Your cup size: ', 0, 130, 25)
+    bra_size = st.slider('Your bra size: ', 0, 130, 25)
 with col2:
     st.image(image)
