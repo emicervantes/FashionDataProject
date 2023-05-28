@@ -6,7 +6,7 @@ import altair as alt
 from PIL import Image
 
 # Data analysis
-df = pd.read_csv("/Users/emicervantes/Desktop/FashionDataProject/data/fashion3.csv")
+df = pd.read_csv("../data/fashion3.csv")
 df.iloc[:,2:13]
 col_lst = list(range(2,13))
 col_lst.extend([15,17])
