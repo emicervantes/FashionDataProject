@@ -1,7 +1,7 @@
 # Fitted and Predicted (VenusHacks 2023)!
 
 <p align="center">
-![241499725-b7906c82-d020-46b7-834c-1990b5bb07f2](https://github.com/emicervantes/FashionDataProject/assets/131114214/2ab7742f-9c3b-4504-bd0a-d7c9580acf0d)
+  <img width="460" height="300" src="https://github.com/emicervantes/FashionDataProject/assets/131114214/2ab7742f-9c3b-4504-bd0a-d7c9580acf0d">
 </p>
 
 ### Developed by Team ξξξ: Emi Cervantes, Christina Orengo, Nathan Samarasena
