@@ -16,3 +16,4 @@ with col1:
 with col2:
     st.image(image)
 
+st.write("Check our Github repo: ")
