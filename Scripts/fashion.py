@@ -6,7 +6,7 @@ import altair as alt
 
 # Title and headers
 st.title("FITTED AND PREDICTED")
-st.write("Team $\xi$")
+st.write("Team $\xi $")
 st.write("Developers: Emi Cervantes, Christina Orengo, Nathan Samarasena")
 
 
