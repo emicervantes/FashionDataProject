@@ -26,6 +26,7 @@ We created a site using Streamlit where we were able to create areas for the con
 
 **Future Plans**
 * Cosine similarity for rarity of consumer dimensions to quality score
+* Finish Streamlit demo
 
 **Citation**
 1. Misra, Rishabh, Mengting Wan, and Julian McAuley. "Decomposing fit semantics for product size recommendation in metric spaces." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 422-426. 2018.
