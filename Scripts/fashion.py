@@ -6,7 +6,7 @@ import altair as alt
 from PIL import Image
 
 # Data analysis
-df = pd.read_csv("../data/fashion3.csv")
+#df = pd.read_csv("../data/fashion3.csv")
 #df.iloc[:,2:13]
 #col_lst = list(range(2,13))
 ##col_lst.extend([15,17])
@@ -14,6 +14,7 @@ df = pd.read_csv("../data/fashion3.csv")
 #df_clean = df.dropna()
 #df_clean.head()
 #category = df['category'].unique()
+category = ['a', 'b', 'c', 'd']
 
 # Title and headers
 st.title("FITTED AND PREDICTED")
