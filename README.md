@@ -6,9 +6,15 @@ As many women-identifying people know, it can often be difficult to find and pur
 
 This program was designed to showcase how seemingly complicated and nuanced tasks as quality prediction and recommendation of something as subjective as clothing and fashion can be optimized for the consumer, especially with the use of machine learning and model training.
 
-**Writing the Project**
+**Data Preparation**
 
-With this problem in mind, the Clothing Fit Dataset by Rishabh Misra was the perfect starting point. Starting with a dataset of over 5500 clothing products in various categories including 
+With this problem in mind, the Clothing Fit Dataset by Rishabh Misra was the perfect starting point. Starting with a dataset of over 5500 clothing products in various categories including their clothing type (top, bottom, outerwear, dress), ratings and reviews, fit of clothing feedback, and customer/product measurements. 
+
+To be able to more effectively analyse the data, Emi commanded the review and feedback normalization, taking written out responses by customers and using keyword search to provide us with a numerical rating. After that point, we adjusted all analytically viable columns to numeric values to prepare our data frames for training. Next, we took the quality and review/rating scores to generate a new aggregated score for each unique review.
+
+**Machine Learning using KNN Linear Regression**
+
+Now that our data was prepped and ready for training
 
 **Citation**
 1. Misra, Rishabh, Mengting Wan, and Julian McAuley. "Decomposing fit semantics for product size recommendation in metric spaces." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 422-426. 2018.
