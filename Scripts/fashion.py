@@ -24,7 +24,7 @@ image = Image.open('Scripts/spongebob.png')
 
 col1, col2 = st.columns(2)
 with col1:
-    st.header("Spongebob wants you to get fitted!'")
+    st.header("Spongebob wants you to get fitted!")
     factor = col1.selectbox("Choose Your Cloth Category:", category)
     waist = st.slider('Your waistt: ' , 20, 50, 0)
     height = st.select_slider(
