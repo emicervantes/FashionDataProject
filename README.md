@@ -14,7 +14,7 @@ To be able to more effectively analyse the data, Emi commanded the review and fe
 
 **Machine Learning using KNN Linear Regression**
 
-Now that our data was prepped and ready for training
+Now that our data was prepped and ready for training, we moved forward with KNN Linear Regression model to help us analyze our information. For each clothing category we compiled a list of important measurements that are relevant to each type. For example, for tops and dresses we included bra size and cup size to help train our data along with waist, hip, and fit data. From there, we wanted to train our model against the quality pieces based on the average score that would then help us provide us with the best quality recommendation for consumers. Our test and training models were checked for accuracy by the use of mean square error algorithms and we determined that our error between test and training was sufficiently low with our nearest neighbor count set to 15.
 
 **Citation**
 1. Misra, Rishabh, Mengting Wan, and Julian McAuley. "Decomposing fit semantics for product size recommendation in metric spaces." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 422-426. 2018.
