@@ -12,6 +12,8 @@ col_lst.extend([15,17])
 df = df.iloc[:,col_lst]
 df_clean = df.dropna()
 category = ("Dress", "Top", "Bottom", "Outerwear")
+bra_lst = df['bra size'].unique()
+cup_lst = df['cup size'].unique()
 
 # Title and headers
 st.title("FITTED AND PREDICTED")
@@ -25,17 +27,19 @@ with col1:
     factor = col1.selectbox("Choose Your Cloth Category:", category)
     waist = st.slider('Your waistt: ' , 20, 50, 0)
     height = st.select_slider(
-    'Your height: ',
-    options=["4'00ft", "4'01ft", "4'02ft", "4'03ft", "4'04ft", "4'05ft",
-    "4'06ft", "4'07ft", "4'08ft", "4'09ft", "4'10ft", "4'11ft", 
-    "5'00ft", "5'01ft", "5'01ft", "5'02ft", "5'03ft", "5'04ft", "5'05ft", "4'01ft",
-    "5'06ft", "5'07ft", "5'08ft", "5'09ft", "5'10ft", "5'11ft", "6'01ft", "6'02ft",
-    "6'03ft", "6'04ft", "6'05ft", "6'06ft", "6'07ft", "6'08ft", "6'09ft", "6'10ft",
-    "6'11ft"])
+    'Your height (ft): ',
+    options=["4'00", "4'01", "4'02", "4'03", "4'04", "4'05",
+    "4'06", "4'07", "4'08", "4'09", "4'10", "4'11", 
+    "5'00", "5'01", "5'01", "5'02", "5'03", "5'04", "5'05", "4'01",
+    "5'06", "5'07", "5'08", "5'09", "5'10", "5'11", "6'01", "6'02",
+    "6'03", "6'04", "6'05", "6'06", "6'07", "6'08", "6'09", "6'10",
+    "6'11"])
     sub_col1, sub_col2 = st.columns(2)
     with sub_col1:
-        cup_size = st.slider('Your cup size: ', 0, 130, 25)
+        cup_size = sub_col1.selectbox("Choose Your Cloth Category:", 
+        bra_lst)
     with sub_col2:
-        bra_size = st.slider('Your bra size: ', 0, 130, 25)
+        bra_size = sub_col2.selectbox("Choose Your Cloth Category:", 
+        cup_lst)
 with col2:
     st.image(image)
