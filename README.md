@@ -18,7 +18,7 @@ Now that our data was prepped and ready for training, we moved forward with KNN 
 
 **Applying Our Model to Front End Web Development**
 
-
+We created a site using Streamlit where we were able to create areas for the consumer to input their particular measurements that would put our model to work.
 
 **Citation**
 1. Misra, Rishabh, Mengting Wan, and Julian McAuley. "Decomposing fit semantics for product size recommendation in metric spaces." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 422-426. 2018.
