@@ -6,3 +6,4 @@ import altair as alt
 
 # Title and headers
 st.title("FITTED AND PREDICTED")
+st.write("Team $Xi$")
