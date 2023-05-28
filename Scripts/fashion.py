@@ -16,6 +16,12 @@ bra_lst = sorted(df_clean['bra size'].unique())
 cup_lst = ["AA", "A", "B", "C", "D", "DD", "DDD", "DDDD", "H",
             "I", "J", "K"]
 
+# modeling
+col_lst = [4,11]
+score = df_clean.iloc[:,col_lst].apply(lambda iterator: ((iterator - iterator.min())/(iterator.max() - iterator.min())).round(2))
+score["avg"] = score.mean(axis=1)
+score.head()
+
 # Title and headers
 st.title("FITTED AND PREDICTED")
 st.write("**Developers:** Emi Cervantes, Christina Orengo, Nathan Samarasena")
