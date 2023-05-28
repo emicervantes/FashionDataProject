@@ -22,6 +22,9 @@ Now that our data was prepped and ready for training, we moved forward with KNN 
 
 We created a site using Streamlit where we were able to create areas for the consumer to input their particular measurements that would put our model to work.
 
+**Future Plans**
+* Cosine similarity for rarity of consumer dimensions to quality score
+
 **Citation**
 1. Misra, Rishabh, Mengting Wan, and Julian McAuley. "Decomposing fit semantics for product size recommendation in metric spaces." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 422-426. 2018.
 2. Misra, Rishabh and Jigyasa Grover. "Sculpting Data for ML: The first act of Machine Learning." ISBN 9798585463570 (2021).
