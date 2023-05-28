@@ -9,5 +9,6 @@ from PIL import Image
 st.title("FITTED AND PREDICTED")
 st.write("**Developers:** Emi Cervantes, Christina Orengo, Nathan Samarasena")
 image = Image.open('spongebob.png')
+st.image(image, caption='Sunrise by the mountains')
 
 
