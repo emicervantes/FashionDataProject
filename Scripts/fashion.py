@@ -12,8 +12,8 @@ col_lst = list(range(2,13))
 col_lst.extend([15,17])
 df = df.iloc[:,col_lst]
 df_clean = df.dropna()
-df_clean.head()
 category = df['category'].unique()
+category
 # Title and headers
 st.title("FITTED AND PREDICTED")
 st.write("**Developers:** Emi Cervantes, Christina Orengo, Nathan Samarasena")
