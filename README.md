@@ -2,7 +2,7 @@
 
 ![241499725-b7906c82-d020-46b7-834c-1990b5bb07f2](https://github.com/emicervantes/FashionDataProject/assets/131114214/2ab7742f-9c3b-4504-bd0a-d7c9580acf0d)
 
-### Developed by Team ξξξ Emi Cervantes, Christina Orengo, Nathan Samarasena
+### Developed by Team ξξξ: Emi Cervantes, Christina Orengo, Nathan Samarasena
 
 As many women-identifying people know, it can often be difficult to find and purchase the proper clothing that fits to our unique body shapes and specifications. In fact, it often feels like every product can just end up completely different than another, even if it's in the same style! So, what if there were a program designed to remedy these problems? What if there were a program that could streamline my shopping experience using _my_ dimensions? Introducing... '**Fitted and Predicted**'!
 
