@@ -12,8 +12,8 @@ col_lst.extend([15,17])
 df = df.iloc[:,col_lst]
 df_clean = df.dropna()
 category = ("Dress", "Top", "Bottom", "Outerwear")
-bra_lst = df['bra size'].unique()
-cup_lst = df['cup size'].unique()
+bra_lst = sorted(df_clean['bra size'].unique())
+cup_lst = sorted(df_clean['cup size'].unique())
 
 # Title and headers
 st.title("FITTED AND PREDICTED")
