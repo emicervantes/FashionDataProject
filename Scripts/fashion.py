@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import altair as alt
 from PIL import Image
-from sklearn.decomposition import TruncatedSVD
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsRegressor
