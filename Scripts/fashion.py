@@ -4,6 +4,7 @@ from PIL import Image
 import pandas as pd
 import numpy as np
 import altair as alt
+import sklearn
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsRegressor
